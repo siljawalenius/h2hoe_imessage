@@ -1,10 +1,10 @@
 # h2hoe_imessage
  an imessage version using applescript and python
 
-Never used python before?
+## Never used python before?
 
-download python 3.9.0 here: https://www.python.org/downloads/release/python-390/ 
-then run this: pip install schedule
+1. download python 3.9.0 here: https://www.python.org/downloads/release/python-390/ 
+2. then run this: pip install schedule
 
 
 ## How to use
