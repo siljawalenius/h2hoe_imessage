@@ -2,7 +2,7 @@
  an imessage version using applescript and python
 
 
-#How to use
+## How to use
 
 (This only works on a mac - sorry!!!) 
 
