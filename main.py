@@ -16,7 +16,6 @@ def get_texts(file_path):
 #pick a random text from our array to send
 texts = get_texts("texts.txt")
 num_texts = len(texts)-1
-message = texts[random.randint(0, num_texts)]
 
 #function to send the messages
 def send_text(cell_num, text):
@@ -30,6 +29,7 @@ schedule.every().day.at("00:12").do(send_text,number,message)
 hours = ["08:00", "09:00","10:00","11:00","12:00","13:00","14:00","15:00","16:00","17:00","18:00"]
 
 for hour in hours:
+    message = texts[random.randint(0, num_texts)]
     schedule.every().day.at(hour).do(send_text,number,message)
 
 
