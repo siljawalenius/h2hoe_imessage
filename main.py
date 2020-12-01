@@ -3,7 +3,7 @@ import random
 import schedule
 import time 
 
-number = #<your imessage number here (no spaces)>
+number = 
 
 def get_texts(file_path):
     with open(file_path, 'r') as f:
@@ -22,7 +22,8 @@ def send_text(cell_num, text):
     os.system('osascript send.scpt {} "{}"'.format(cell_num, text))
 
 #test
-#schedule.every().day.at("00:12").do(send_text,number,message)
+#quote = texts[random.randint(0, num_texts)]
+#send_text(number, quote)
 
 #schedule a text every hour between 8 and 6
 #array of hours to send a text
