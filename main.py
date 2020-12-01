@@ -3,11 +3,9 @@ import random
 import schedule
 import time 
 
-<<<<<<< HEAD
-number = 
-=======
-number = #<your imessage number here (no quotes, no spaces)>
->>>>>>> 5ac314d97f9542bcbd2776eb42df42522c0bd509
+number = int(os.environ.get('NUMBER'))
+
+#number = #<your imessage number here (no quotes, no spaces)>
 
 def get_texts(file_path):
     with open(file_path, 'r') as f:
